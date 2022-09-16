@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Entities.DTOs
 {
-    public class ProductDetailDto:IDto
+    public class ProductDetailDto:IDto //iki veri tabanı tablosunu birbirne bağlamak için dto kullanılır
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
